@@ -7,6 +7,8 @@
     margin: auto;
 }
 
+/* Nome */
+
 .container .h-name {
     width: 100%;
     min-height: 100px;
@@ -28,4 +30,153 @@
     font-size: 32px;
     text-transform: uppercase;
     color: #00E0ff;
+}
+
+/* Sobre */
+
+.container .h-sobre {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+
+.container .h-sobre .h-title-sobre {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0ff;
+    margin-bottom: 25px;
+}
+
+.container .h-sobre .h-title-sobre h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000
+}
+
+.container .h-sobre .paragraf {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* Experiências*/
+
+.container .h-experiencia .h-title-experiencia {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0ff;
+    margin-bottom: 50px;
+}
+
+.container .h-experiencia .h-title-experiencia h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-experiencia .h-itens {
+    width: 100%;
+    min-height: 100px;
+}
+
+.container .h-experiencia .h-itens .item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+}
+
+.container .h-experiencia .h-itens .item .work {
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+}
+
+.container .h-experiencia .h-itens .item .work h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-experiencia .h-itens .item .work p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.container .h-experiencia .h-itens .item .description {
+    width: 75%;
+    min-height: 100px;
+}
+
+.container .h-experiencia .h-itens .item .description h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00E0ff;
+}
+
+.container .h-experiencia .h-itens .item .description p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Educação */
+
+.container .h-educacao {
+    width: 100%;
+    min-height: 100px;
+
+}
+
+.container .h-educacao .h-title-educacao {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0ff;
+    margin-bottom: 50px;
+}
+
+.container .h-educacao .h-title-educacao h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.container .h-educacao .item {
+    width: 100%;
+    min-height: 220px;
+
+}
+
+.container .h-educacao .item .title {
+    margin-bottom: 10px;
+    
+}
+
+.container .h-educacao .item .title h2 {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #232323;
 }
